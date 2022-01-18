@@ -37,7 +37,7 @@ for(i=1; i <=6; i++)
 
 //Part One
 /*
-let x=4750;
+let x=15;
 
 while(x>=0){
     console.log(x);
@@ -55,15 +55,23 @@ while(oddnumbers<100){
 
 }
 */
+//PART THREE
 /*
-let suma=0;
-let n=3;
-let i=0;
-while(i<5){
-    suma +=n;
+var w=1;
+let m='';
+while(w<=6){
+    m=m+"["+w+"]";
+    w++;
+}
+console.log(m);
+*/
+
+let suma = 0;
+let n = 20;
+let i = 0;
+while (i < n) {
     i++;
+    suma += i;
 }
 console.log(suma);
-
-*/
 
