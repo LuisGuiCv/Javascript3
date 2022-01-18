@@ -1,5 +1,5 @@
 //Exercise 1
-/*
+
 //Part One
 var people=["Sofía","David","Juan"];
 
@@ -12,24 +12,26 @@ people.push("Sara","Agustin");
 people.shift();
 console.log(people);
 
-people.splice(2,0,"Renata");
+people.splice(1,0,"Renata");
 people.push("Elena");
 console.log(people);
-*/
+
 //Exercise 2
 
 //Declaración del array 
 /*
-var matriz=new Array();
-
-for (let i = 0; i <=4; i++) {
-    matriz[i]=new Array();
-    for (let j = 0; j <= i; j++) {
-        matriz[i][j]="*";
-    }
+var i,j,k="";
+for(i=1; i <=6; i++)
+{
+   for (j=1; j < i; j++)
+     {
+    k=k+("* ");        
+      }
+ console.log(k);
+ k=' ';    
 }
-console.log(matriz);
 */
+
 
 //Exercise 3
 
@@ -53,7 +55,7 @@ while(oddnumbers<100){
 
 }
 */
-
+/*
 let suma=0;
 let n=3;
 let i=0;
@@ -63,4 +65,5 @@ while(i<5){
 }
 console.log(suma);
 
+*/
 
