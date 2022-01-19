@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+
+</head>
+<body>
+    <a href="Ejercicio1.html">Ejercicio 1</a>
+    <a href="Ejercicio2.html">Ejercicio 2</a>
+    <a href="https://www.youtube.com/channel/UCGkaRLTcn0nS_nxhNX-1FMw">EL DIARIO DEL PORTADOR</a>
+
+    <button id="num" onclick="num_links()">Número de links</button>
+    <script>
+    function  num_links(){
+            alert(document.body.getElementsByTagName('a').length);
+            alert(document.body.getElementsByTagName('a')[0]);
+            alert(document.body.getElementsByTagName('a')[2]);
+
+        };
+
+    
+    </script>
+</body>
+</html>
